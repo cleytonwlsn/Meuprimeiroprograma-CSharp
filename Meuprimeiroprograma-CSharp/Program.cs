@@ -10,4 +10,10 @@ Console.WriteLine("Qual a sua idade?");
 
 idade = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(textoOlaMundo + nomeCompleto + " que tem " + idade + " anos.");
+if (idade == 28 || nomeCompleto == "Cleyton Wilson") 
+{
+    Console.WriteLine(textoOlaMundo + nomeCompleto + " que tem " + idade + " anos.");
+} else
+{
+    Console.WriteLine("Você digitou a idade e o nome errado.");
+}
